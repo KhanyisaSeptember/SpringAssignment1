@@ -23,5 +23,9 @@ public class Application {
         Path path = Paths.get(new ClassPathResource("static/foundationCourses.html").getURI());
         return new ClassPathResource("static/foundationCourses.html");
     }
+     @GetMapping("/foundation")
+    public Resource foundation() throws IOException {
+        Path path = Paths.get(new ClassPathResource("static/foundationCourses.html").getURI());
+        return new ClassPathResource("static/foundationCourses.html");
 
 }
