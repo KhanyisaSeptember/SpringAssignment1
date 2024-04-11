@@ -28,5 +28,10 @@ public class Application {
         Path path = Paths.get(new ClassPathResource("static/undergraduateCourses.html").getURI());
         return new ClassPathResource("static/undergraduateCourses.html");
     }
+    @GetMapping("/honours")
+    public Resource honours() throws IOException {
+        Path path = Paths.get(new ClassPathResource("static/honoursCourses.html").getURI());
+        return new ClassPathResource("static/honoursCourses.html");
+    }
 
 }
