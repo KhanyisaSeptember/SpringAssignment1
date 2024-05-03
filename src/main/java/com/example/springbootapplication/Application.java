@@ -32,6 +32,6 @@ public class Application {
     public Resource honours() throws IOException {
         Paths.get(new ClassPathResource("static/honoursCourses.html").getURI());
         return new ClassPathResource("static/honoursCourses.html");
-    }
+}
 
 }
