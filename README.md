@@ -105,7 +105,7 @@ After the Spring Boot application starts, the available routes include:
 
 For example:
 
-```text
+```text 
 http://localhost:8080/undergraduate
 ```
 
