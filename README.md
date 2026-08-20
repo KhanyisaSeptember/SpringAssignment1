@@ -1,8 +1,7 @@
 # Spring Assignment 1
 
-A Java Spring Boot web application developed in 2024 as part of an academic programming assignment.
-
-The application provides access to course information for different levels of study through Spring Boot HTTP endpoints. It uses a REST controller to serve static HTML pages containing information for Foundation, Undergraduate, and Honours courses.
+A Java Spring Boot web application provides access to course information for different levels of study through Spring Boot HTTP endpoints. 
+It uses a REST controller to serve static HTML pages containing information for Foundation, Undergraduate, and Honours courses.
 
 ## Features
 
@@ -115,7 +114,3 @@ http://localhost:8080/undergraduate
 This project was developed in 2024 as an academic exercise in building a Java web application with the Spring Boot framework.
 
 It demonstrates the use of Spring Boot application configuration, REST controllers, HTTP GET mappings, classpath resources, static HTML content, and Gradle project management.
-
-## Author
-
-**Anelisiwe Khanyisa September**
